@@ -13,11 +13,5 @@ The app is built using **HTML**, **CSS**, and **JavaScript** and provides a clea
 - **LocalStorage Integration**: Contact data is saved in the browser's `localStorage`, ensuring persistence across sessions.
 - **Responsive Design**: The layout is optimized for different screen sizes.
 
-## 🔧 Installation and Setup
 
-Follow these steps to get a local copy of the project up and running:
 
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/contacts-web-app.git
