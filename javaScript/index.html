@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div id="search-contact">
+            <div id="search-menu">
+                <label for="search">Search</label>
+                <input type="text" id="search" placeholder="Number || Name">
+            </div>
+
+            <div id="add-user">
+                <label for="add-user">Add new Contact</label>
+            </div>
+        </div>
+        <div id="pop-up">
+            <div id="cancle">Cancle</div>
+            <form action="" method="get">
+                <div class="enter-detail">
+                    <label for="name">Enter Name</label>
+                    <input type="text" placeholder="Enter name *" id="get-name">
+                    <label for="Phone-number">Phone numbre</label>
+                    <input type="tel" id="get-number" pattern="[0-9]{10}" placeholder="Enter 10 digit Number *">
+                    <label for="categery">Categery</label>
+                    <select name="select-1" id="select">
+                        <option class="selectOpt" value="collage">Collage</option>
+                        <option class="selectOpt" selected value="family" >Family</option>
+                        <option class="selectOpt" value="school">School</option>
+                        <option class="selectOpt" value="friends">Friends</option>
+                    </select>
+                    <label for="comment">Comment Area</label>
+                    <textarea name="textarea"  placeholder="Enter any comment *" id="comment"></textarea>
+                </div>
+                <div id="gender">
+                    <input type="radio" checked id="male" class="gender" name="gender" value="male" >
+                    <label for="male">male</label><br>
+                    <input type="radio" id="female" class="gender" name="gender" value="female">
+                    <label for="female">female</label><br>
+                </div>
+
+                <div id="sumbit">
+                    <button type="submit">Add To Contact</button>
+                </div>
+        </div>
+        </form>
+        </div>
+        <div class="contact-box">
+            <div id="contact-title">Contact</div>
+            <div id="contact-list">
+                <!-- <div id="contact-details">
+                    <div id="contact-img"></div>
+                    <div id="contact-info">
+                        <span id="contact-name">Anurag pandey</span>
+                        <span id="contact-number">7869755373</span>
+
+                        <div id="catagery-info">
+                            <span id="contact-categery">friends</span>
+                            <span id="contact-Gender">male</span>
+                        </div>
+                    </div>
+
+                    <div id="control">
+                        <div id="edit">Edit</div>
+                        <div id="delete">Delete</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
